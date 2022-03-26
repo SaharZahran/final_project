@@ -1,0 +1,25 @@
+.users__container{
+    margin: 8vh 3vw;
+}
+.addCategory__form{
+    margin-top: 10vw;
+}
+.addCategory__btn{
+    color: white;
+}
+.category__name{
+    font-size: 1.5em !important;
+    padding-top: 5vw !important;
+    font-weight: bold;
+}
+.header__logo img{
+    width: 50vw;
+    height: 10vh;
+}
+.post_content{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

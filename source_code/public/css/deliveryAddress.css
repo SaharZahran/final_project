@@ -1,0 +1,72 @@
+.deliveryAddress {
+    width: 85vw;
+    margin: 2vh auto 10vh;
+}
+.deliveryAddress__title {
+    font-size: 2em;
+    margin: 5vh 5vw 2vh;
+}
+.deliveryAddress__innerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.deliveryAddress__form {
+    font-size: 1.5em;
+    width: 40%;
+    border-right: 1px solid gray;
+}
+.deliveryAddress__form button {
+    padding: 0.5rem 1rem;
+    background-color: #b8d9aa;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+.deliveryAddress__form .form-group {
+    margin-bottom: 2vh;
+}
+.deliveryAddress__form .form-group .input-group-addon {
+    margin-bottom: 1vh;
+}
+.deliveryAddress__form .form-group input {
+    width: 80%;
+    font-size: 0.7em;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+.deliveryAddress__total {
+    margin-top: 5vh;
+    font-size: 2em;
+}
+.deliveryAddress__payment {
+    font-size: 0.8em;
+}
+.deliveryAddress__payment label {
+    margin-right: 0.7rem;
+}
+@media (max-width: 800px) {
+    .deliveryAddress__innerContainer {
+        flex-direction: column;
+    }
+    .deliveryAddress__form {
+        width: 100%;
+        border-right: none;
+        padding: 1rem;
+    }
+    .deliveryAddress__form .form-group {
+        width: 80%;
+        margin: 2vh 0;
+    }
+    .deliveryAddress__orderSummery {
+        margin-top: 5vh;
+    }
+}
+@media (max-width: 400px) {
+    .deliveryAddress__form .form-group {
+        width: 100%;
+        margin: 2vh 0;
+    }
+}

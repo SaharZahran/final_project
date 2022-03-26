@@ -1,0 +1,31 @@
+.sellerHome__container h1 {
+    margin: 4vh 4vw;
+}
+.sellerHome__top {
+    margin-right: 2.7vw;
+}
+@media (max-width: 800px) {
+    .sellerHome__container {
+        width: 100vw;
+    }
+    .sellerHome__categories {
+        display: none;
+    }
+    .sellerHome__products {
+        border-left: none;
+    }
+    .sellerHome__container img {
+        width: 100vw;
+        height: 200px;
+    }
+    .sellerHome__innerContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .card {
+        width: 100%;
+    }
+}

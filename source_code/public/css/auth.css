@@ -1,0 +1,80 @@
+.container {
+    width: 35vw;
+    margin: 10vh auto;
+    box-sizing: border-box;
+}
+.register__form,
+.login__form {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding-top: 2vh;
+    height: fit-content;
+    font-size: 1.2em;
+    padding-bottom: 2vh;
+}
+.form__field > * {
+    display: block;
+    width: 90%;
+    margin: 1vh auto;
+}
+.login__btn,
+.register__btn {
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    width: 90%;
+    margin: 2vh 2vw;
+    background-color: #B8D9AA;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+.form__field input {
+    height: 5vh;
+    border-radius: 7px;
+    padding-left: 1vw;
+}
+.form__hint {
+    margin-left: 1vw;
+}
+.text-danger {
+    color: red;
+}
+@media (max-width: 880px) {
+    .container {
+        width: 60vw;
+        margin: 10vh auto;
+    }
+}
+.register__form--hint {
+    color: gray;
+    font-size: 0.8em;
+}
+
+.register__switchList{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+.register__button--switch{
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    background-color: #b8d9aa;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin-top: 4vh;
+    text-align: center;
+    margin-right: 0.5vw;
+}
+.register__button--switch a{
+    text-decoration: none;
+    color: black;
+}
+.register__button--switch:hover{
+    cursor: pointer;
+}
+@media (max-width:400px) {
+    .register__button--switch{
+        font-size: 1em;
+    }
+}

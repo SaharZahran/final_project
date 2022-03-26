@@ -1,0 +1,33 @@
+.contact__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact__container i{
+    color: #B8D9AA;
+}
+.contact__container .contact__left p{
+    font-size: 2em;
+    margin-bottom: 10vh;
+}
+.contact__right{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    padding: 2rem;
+}
+.contact__container .contact__right form{
+    font-size: 2em;
+}
+.contact__right form button{
+    font-size: 0.7em;
+}
+.contact__right form input, .contact__right form textarea{
+    font-size: 0.7em;
+    width: 100%;
+    height: 50px;
+    padding: 0 0.5vw;
+}
+.contact__right form textarea{
+height: 150px;
+}
